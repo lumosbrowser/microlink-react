@@ -890,7 +890,7 @@ var CardContent = function CardContent() {
   }, title)), !isSmallCard && /*#__PURE__*/React__default.createElement(Description, {
     cardSize: size
   }, /*#__PURE__*/React__default.createElement(CardText, {
-    useNanoClamp: false
+    lines: 10000
   }, description)), /*#__PURE__*/React__default.createElement(Footer, {
     cardSize: size
   }, /*#__PURE__*/React__default.createElement(Author, {

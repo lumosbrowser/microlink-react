@@ -129,7 +129,7 @@ const CardContent = () => {
       </Header>
       {!isSmallCard && (
         <Description cardSize={size}>
-          <CardText useNanoClamp={false}>{description}</CardText>
+          <CardText lines={10000}>{description}</CardText>
         </Description>
       )}
       <Footer cardSize={size}>
