@@ -65,7 +65,6 @@ const Description = styled('div').attrs({ className: classNames.description })`
   margin: auto 0;
   line-height: 18px;
   font-weight: normal;
-  ${({ cardSize }) => !isLarge(cardSize) && mobileDescriptionStyle};
 `
 
 const Footer = styled('footer').attrs({ className: classNames.url })`

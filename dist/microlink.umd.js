@@ -741,7 +741,7 @@
   }
 
   function _templateObject8() {
-    var data = _taggedTemplateLiteral(["\n  text-align: left;\n  font-size: 14px;\n  flex-grow: 2;\n  margin: auto 0;\n  line-height: 18px;\n  font-weight: normal;\n  ", ";\n"]);
+    var data = _taggedTemplateLiteral(["\n  text-align: left;\n  font-size: 14px;\n  flex-grow: 2;\n  margin: auto 0;\n  line-height: 18px;\n  font-weight: normal;\n"]);
 
     _templateObject8 = function _templateObject8() {
       return data;
@@ -847,14 +847,11 @@
   });
   var Description = styled__default('div').attrs({
     className: classNames.description
-  })(_templateObject8(), function (_ref3) {
-    var cardSize = _ref3.cardSize;
-    return !isLarge(cardSize) && mobileDescriptionStyle;
-  });
+  })(_templateObject8());
   var Footer = styled__default('footer').attrs({
     className: classNames.url
-  })(_templateObject9(), function (_ref4) {
-    var cardSize = _ref4.cardSize;
+  })(_templateObject9(), function (_ref3) {
+    var cardSize = _ref3.cardSize;
     return styled.css(_templateObject10(), !isSmall(cardSize) ? '12px' : '10px', !isSmall(cardSize) && 'width: 100%;');
   });
   var Author = styled__default(CardText)(_templateObject11(), transition.medium('opacity'), classNames.main);
